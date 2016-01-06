@@ -2462,6 +2462,7 @@ a .home-platforms-instance-list-oval:hover,
 }
 #users-to-delete > li,
 #users-to-purge > li,
+#libraries-to-delete > li,
 #libraries-to-purge > li {
     color: #e9a049;
 }
