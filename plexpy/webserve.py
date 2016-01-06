@@ -1659,7 +1659,7 @@ class WebInterface(object):
             cherrypy.response.headers['Content-type'] = 'application/json'
             return result
         else:
-            logger.warn(u"Unable to retrieve data for get_servers.')
+            logger.warn(u"Unable to retrieve data for get_servers.")
 
     @cherrypy.expose
     def get_servers_info(self, **kwargs):

@@ -217,7 +217,7 @@ class Libraries(object):
                                        'do_notify_created': item['do_notify_created'],
                                        'keep_history': item['keep_history']
                                        }
-                return user_details
+                return library_details
             else:
                 # If there is no library data we must return something
                 # Use "Local" user to retain compatibility with PlexWatch database value
